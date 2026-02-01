@@ -10,8 +10,7 @@
 name: OpenWrt-CI2
 
 on:
-  schedule:
-        - cron: 20 6 * * *
+  workflow_dispatch:
   push:
       branches: 
         - master
