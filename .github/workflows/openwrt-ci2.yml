@@ -11,10 +11,10 @@ name: OpenWrt-CI2512
 
 on:
   push:
-   branches: 
-     - master
-  schedule:
-    - cron: 4 14 * * *
+      branches: 
+      - master
+      schedule:
+        - cron: 4 14 * * *
   release:
     types: [published]
 
