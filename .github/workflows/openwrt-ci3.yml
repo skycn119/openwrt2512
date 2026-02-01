@@ -10,11 +10,10 @@
 name: OpenWrt-CI3
 
 on:
-  schedule:
-        - cron: 19 22 * * *
   push:
       branches: 
         - master
+  workflow_dispatch:
   release:
     types: [published]
 
