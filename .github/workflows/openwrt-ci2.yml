@@ -7,11 +7,11 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: OpenWrt-CI2512
+name: OpenWrt-CI2
 
 on:
   schedule:
-        - cron: 4 14 * * *
+        - cron: 20 6 * * *
   push:
       branches: 
         - master
